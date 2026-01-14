@@ -1,0 +1,6 @@
+# ignore downloaded video files / folders
+*.mp4
+*.mkv
+*.webm
+downloads/
+videos/
