@@ -1,10 +1,10 @@
-# YouTube Video Downloader (yt-dlp) 🔧
+# YouTube Video Downloader (yt-dlp)
 
 **A small utility for downloading videos and playlists using yt-dlp.**
 
 ---
 
-## Why we use yt-dlp (not another library) ✅
+## Why use yt-dlp (not another library)
 
 - **Actively maintained fork** of youtube-dl with frequent fixes and updates — this matters for site changes and format extraction reliability.
 - **Broader site support** and more extractors (works with many more platforms and edge cases).
@@ -14,7 +14,7 @@
 
 ---
 
-## Quick start (macOS / Linux / Windows) 🚀
+## Quick start (macOS / Linux / Windows)
 
 1. Create and activate a virtual environment (recommended):
 
@@ -59,7 +59,7 @@ def download(url, outtmpl='%(title)s.%(ext)s'):
 
 ---
 
-## Configuration & Best Practices 🔧
+## Configuration & Best Practices
 
 - Use a virtual environment and pin `yt-dlp` in `requirements.txt` if the project will be deployed or reused.
 - For private or age-restricted content, pass cookies or credentials via `--cookies` or `--username/--password`.
@@ -67,7 +67,7 @@ def download(url, outtmpl='%(title)s.%(ext)s'):
 
 ---
 
-## Possible future enhancements ✨
+## Possible future enhancements
 
 - Add a small GUI (Tkinter / Electron / Tauri) for non-technical users.
 - Add concurrency to download multiple videos in parallel (async or thread pool).
