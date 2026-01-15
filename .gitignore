@@ -4,3 +4,5 @@
 *.webm
 downloads/
 videos/
+
+.DS_Store
